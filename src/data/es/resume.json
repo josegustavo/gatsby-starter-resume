@@ -1,0 +1,266 @@
+{
+  "contact": {
+    "email": "jose.quilca@pucp.edu.pe",
+    "phone": "+51 946 072 468",
+    "website": "https://jose.quilca.me",
+    "location": "Lima, Perú"
+  },
+  "skills": [
+    {
+      "title": "General",
+      "type": "percent",
+      "subskills": [
+        {
+          "name": "Arquitectura",
+          "percent": 80
+        },
+        {
+          "name": "Desarrollo de aplicaciones Web",
+          "percent": 75
+        },
+        {
+          "name": "Dev Ops",
+          "percent": 60
+        },
+        {
+          "name": "Desarrollo Backend",
+          "percent": 82
+        },
+        {
+          "name": "Desarrollo Frontend",
+          "percent": 62
+        },
+        {
+          "name": "Gestion de Proyectos",
+          "percent": 55
+        },
+        {
+          "name": "Ciencia de Datos",
+          "percent": 56
+        }
+      ]
+    },
+    {
+      "title": "Lenguajes",
+      "type": "percent",
+      "subskills": [
+        {
+          "name": "Python",
+          "percent": 82
+        },
+        {
+          "name": "PHP",
+          "percent": 78
+        },
+        {
+          "name": "Javascript",
+          "percent": 72
+        },
+        {
+          "name": "SQL",
+          "percent": 74
+        },
+        {
+          "name": "C#",
+          "percent": 55
+        }
+      ]
+    },
+    {
+      "title": "Frameworks",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "Django"
+        },
+        {
+          "name": "Odoo"
+        },
+        {
+          "name": "Flask"
+        },
+        {
+          "name": "FastAPI"
+        },
+        {
+          "name": "Yii2"
+        },
+        {
+          "name": "Laravel"
+        },
+        {
+          "name": "Code Igniter"
+        },
+        {
+          "name": "Node"
+        },
+        {
+          "name": "Angular"
+        },
+        {
+          "name": "VueJS"
+        },
+        {
+          "name": "React"
+        },
+        {
+          "name": "Gatsby"
+        },
+        {
+          "name": "Next.js"
+        },
+        {
+          "name": "Tailwind"
+        }
+      ]
+    },
+    {
+      "title": "Software",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "Git"
+        },
+        {
+          "name": "Docker compose"
+        },
+        {
+          "name": "Traefik"
+        },
+        {
+          "name": "Nginx"
+        },
+        {
+          "name": "Wordpress"
+        },
+        {
+          "name": "Ghost"
+        },
+        {
+          "name": "Owncloud"
+        },
+        {
+          "name": "Humhub"
+        },
+        {
+          "name": "Drupal"
+        },
+        {
+          "name": "Nucleus"
+        }
+      ]
+    },
+    {
+      "title": "Bases de Datos",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "PostgreSQL"
+        },
+        {
+          "name": "MongoDB"
+        },
+        {
+          "name": "MySQL"
+        },
+        {
+          "name": "Firebase"
+        },
+        {
+          "name": "Redis"
+        },
+        {
+          "name": "Memcached"
+        }
+      ]
+    }
+  ],
+  "summary": "Apasionado por la tecnología con conocimiento multidisciplinario adquirido durante más de 7 años en la industria de TI, con una colaboración exitosa en proyectos en varias industrias para clientes de diferentes tamaños. Enfocado en construir una amplia gama de productos de alta demanda y alta disponibilidad. Constante capacitación para adquirir nuevas habilidades y brindar las soluciones tecnológicas que mejor se adapten a las ideas iniciales. Amplia experiencia en diseño de arquitectura y construcción de soluciones escalables, mejorando procesos internos que satisfagan necesidades y produzcan resultados óptimos.",
+  "education": [
+    {
+      "institution": "Pontificia Universidad Católica del Perú, Lima",
+      "degree": "Ingeniería Informática",
+      "start": "2007",
+      "end": "2015"
+    },
+    {
+      "institution": "Idiomas PUCP, Lima",
+      "degree": "B2 English Level",
+      "start": "2017",
+      "end": "2018"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Desarrollador Lider Full Stack",
+      "company": "Advacare International Ltd – Advacare Pharmaceuticals",
+      "description": "Advacare es un fabricante y proveedor global de productos farmacéuticos y sanitarios. Gestioné todos los aspectos técnicos de varios sitios web comerciales, incluida la administración de servicios y servidores alojados en AWS. Migré aplicaciones antiguas a una nueva solución integral llamada Odoo con el objetivo de aumentar la productividad en los procesos internos actuales. Implementé un sitio web de comercio electrónico llamado AdvalifeUSA.",
+      "start": "09/2018"
+    },
+    {
+      "role": "Desarrollador Backend",
+      "company": "Plataforma Digital del Diario El Comercio – Interacción Digital SAC",
+      "description": "El Comercio es el diario más antiguo del Perú. Desarrollé una plataforma de informes de análisis de video para la mayoría de los sitios web utilizando DynamoDB, Sqoop, Spark, Pandas, Hadoop, Google Data Studio y Microsoft Power BI. Apoyé para mejorar SEO, Redes Sociales, Analytics, Publicidad, performance en general, reducir cargas y bajar costos en uno de los sitios web de noticias más visitados en Perú. Tuve la responsabilidad de mantener algunos de los sitios web del grupo al mismo tiempo.",
+      "start": "09/2016",
+      "end": "08/2018"
+    },
+    {
+      "role": "Desarrollador Full Stack",
+      "company": "DIA - INFOPUC – Pontificia Universidad Católica del Perú",
+      "description": "La PUCP es una de las mejores universidades privadas del Perú. Desarrollé un sistema de gestión del aprendizaje de alta demanda llamado LeoPUCP para niños en la escuela primaria. Desarrollé un sistema de distribución de conocimiento llamado ModusPUCP para miles de estudiantes en diferentes escuelas secundarias. Desarrollé una plataforma para apoyar la metodología de aprendizaje Flipped Classroom. Apoyé para la migración de almacenamiento en la nube institucional privado basado en la web. Fui responsable del mantenimiento de la plataforma de blogs institucionales.",
+      "start": "10/2013",
+      "end": "07/2016"
+    },
+    {
+      "role": "Asistente Técnico",
+      "company": "Freelance",
+      "description": "En los primeros años de mi carrera, tuve el privilegio de trabajar con algunas pequeñas empresas. Apoyé el desarrollo de un software propietario llamado TecLiq, para administrar, procesar y reportar datos geotécnicos. Estuve a cargo del diagnóstico y reparación de computadoras y suministros. Diseñé y desarrollé una red interna de una escuela con soporte para dos laboratorios de computación.",
+      "start": "08/2009",
+      "end": "03/2012"
+    }
+  ],
+  "social": [
+    {
+      "service": "linkedin",
+      "url": "https://www.linkedin.com/in/jgquilca"
+    },
+    {
+      "service": "github",
+      "url": "https://github.com/josegustavo"
+    },
+    {
+      "service": "telegram",
+      "url": "https://t.me/josegustavoo"
+    },
+    {
+      "service": "angellist",
+      "url": "https://angel.co/u/jose-quilca"
+    },
+    {
+      "service": "twitter",
+      "url": "https://twitter.com/josegustavo"
+    },
+    {
+      "service": "facebook",
+      "url": "https://www.facebook.com/josegustavooo"
+    },
+    {
+      "service": "instagram",
+      "url": "https://www.instagram.com/josegunstavo"
+    },
+    {
+      "service": "youtube",
+      "url": "https://www.youtube.com/channel/UCgK6v3aIPHUWGszeFh9Tpbg"
+    }
+  ],
+  "role": "Desarrollador Web",
+  "projects": [
+    {
+      "name": "Gatsby starter resume",
+      "company": "Open source",
+      "description": "Gatsby starter resume es una plantilla de inicio gratuita con soporte para Dark Mode e Internacionalización. Es fácil personalizar el diseño gracias a las capacidad de usar temas en tailwind. Utiliza git como backend y se puede implementar en cualquier servicio de alojamiento estático como Cloudflare, Netlify, firebase hosting, Gitlab Pages o Github Pages.",
+      "link": "https://github.com/josegustavo/gatsby-starter-resume"
+    }
+  ],
+  "fullname": "Jose Quilca"
+}
