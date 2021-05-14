@@ -1,14 +1,16 @@
 import React from 'react';
 
-const Education = ({ data }) => (
+const Education = ({ data, locale }) => (
   <section className="mb-5">
-    <h1 className="section-header mb-5">Education</h1>
+    <h1 className="section-header mb-5">
+      {locale === 'es' ? 'Educación' : 'Education'}
+    </h1>
     {data &&
-      data.map(item => (
+      data.map((item) => (
         <div className="my-2" key={item.degree}>
           <h2 className="item-header text-lg">{item.degree}</h2>
           <h3 className="item-sub">{item.institution}</h3>
-          <p className="text-sm text-neutral-500 font-light">
+          <p className="text-sm text-neutral-500 dark:text-gray-500 font-light">
             {item.start} - {item.end}
           </p>
         </div>

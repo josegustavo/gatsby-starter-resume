@@ -1,60 +1,45 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
   siteMetadata: {
-    title: `Baran Cezayirli | Technologist`,
-    author: `Baran Cezayirli`,
-    description: `With 10+ years of experience in various industries, I help tech
-              startups from idea phase to high volumes. I design and build
-              scalable solutions, implement internal processes that fit your
-              organization, build teams that produce results.`,
-    siteUrl: `https://barancezayirli.com/`,
+    title: `Jose Quilca | Web Developer`,
+    title_es: `Jose Quilca | Desarrollardor Web`,
+    author: `Jose Quilca`,
+    description: `Passionate technologist with a multidisciplinary knowledge acquired over 7+ years in the IT industry, focused on building a wide range of high demand and high availability products.`,
+    description_es: `Apasionado por la tecnología con conocimiento multidisciplinario adquirido durante más de 7 años en la industria de TI, enfocado en construir una amplia gama de productos de alta demanda y alta disponibilidad.`,
+    siteUrl: `https://jose.quilca.me/`,
     social: {
-      twitter: `barancezayirli`,
+      twitter: `josegustavo`,
     },
   },
   plugins: [
+    'gatsby-plugin-postcss',
     {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Baran Cezayirli | Technologist`,
-        short_name: `CV`,
-        start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#38B2AC`,
-        display: `standalone`,
-        icon: 'src/assets/site-icon.png'
-      },
-    },
-    'gatsby-plugin-offline',
-    'gatsby-transformer-json',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `data`,
-        path: `${__dirname}/data/`,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-react-svg',
+      resolve: 'gatsby-plugin-svgr-loader',
       options: {
         rule: {
           include: /assets/,
         },
       },
     },
-    'gatsby-plugin-netlify-cms',
-    `gatsby-plugin-postcss`,
     {
-      resolve: `gatsby-plugin-purgecss`,
+      resolve: `gatsby-theme-i18n`,
       options: {
-        printRejected: true,
-        tailwind: true, // Enable tailwindcss support
-      }
-    }
+        defaultLang: `en`,
+        locales: process.env.LOCALES,
+        configPath: require.resolve(`./i18n/config.json`),
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Jose Quilca | Web Developer`,
+        short_name: `CV`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#095b8c`,
+        display: `standalone`,
+        icon: 'src/images/icon.png',
+      },
+    },
+    'gatsby-plugin-offline',
   ],
 };

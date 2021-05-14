@@ -5,7 +5,7 @@ import GlobeIcon from '../assets/globe.svg';
 import LocationIcon from '../assets/location.svg';
 
 const Contact = ({ field, value }) => (
-  <span className="flex my-2 text-primary-900 tracking-widest items-center">
+  <span className="flex my-2 tracking-widest items-center">
     {field === 'email' && (
       <>
         <MailIcon className="contact-icon" />
@@ -17,7 +17,11 @@ const Contact = ({ field, value }) => (
     {field === 'phone' && (
       <>
         <MobileIcon className="contact-icon" />
-        <a className="contact-link" href={`tel:${value}`} title="phone">
+        <a
+          className="contact-link"
+          href={`tel:${value.replaceAll(' ', '')}`}
+          title="phone"
+        >
           {value}
         </a>
       </>
@@ -32,7 +36,7 @@ const Contact = ({ field, value }) => (
           rel="noopener noreferrer"
           title="website"
         >
-          Personal Site
+          {value}
         </a>
       </>
     )}

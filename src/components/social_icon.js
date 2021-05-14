@@ -5,6 +5,7 @@ import GithubIcon from '../assets/github.svg';
 import LinkedinIcon from '../assets/linkedin.svg';
 import FacebookIcon from '../assets/facebook.svg';
 import InstagramIcon from '../assets/instagram.svg';
+import TelegramIcon from '../assets/telegram.svg';
 import BehanceIcon from '../assets/behance.svg';
 import DribbbleIcon from '../assets/dribbble.svg';
 import AngelIcon from '../assets/angellist.svg';
@@ -21,6 +22,8 @@ const SocialIcon = ({ type }) => {
       return <YoutubeIcon className="footer-social-icon" />;
     case 'instagram':
       return <InstagramIcon className="footer-social-icon" />;
+    case 'telegram':
+      return <TelegramIcon className="footer-social-icon" />;
     case 'github':
       return <GithubIcon className="footer-social-icon" />;
     case 'behance':
