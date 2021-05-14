@@ -19,7 +19,7 @@ const Contact = ({ field, value }) => (
         <MobileIcon className="contact-icon" />
         <a
           className="contact-link"
-          href={`tel:${value.replaceAll(' ', '')}`}
+          href={`tel:${value.replace(/ /g, '')}`}
           title="phone"
         >
           {value}
