@@ -12,31 +12,31 @@
       "subskills": [
         {
           "name": "Architecture",
-          "percent": 80
+          "percent": 100
         },
         {
           "name": "Web App Development",
-          "percent": 75
+          "percent": 100
         },
         {
           "name": "Dev Ops",
-          "percent": 60
+          "percent": 100
         },
         {
           "name": "Backend Development",
-          "percent": 82
+          "percent": 100
         },
         {
           "name": "Frontend Development",
-          "percent": 62
+          "percent": 100
         },
         {
           "name": "Project Management",
-          "percent": 55
+          "percent": 100
         },
         {
           "name": "Data Science",
-          "percent": 56
+          "percent": 100
         }
       ]
     },
@@ -46,23 +46,23 @@
       "subskills": [
         {
           "name": "Python",
-          "percent": 82
+          "percent": 100
         },
         {
           "name": "PHP",
-          "percent": 78
+          "percent": 100
         },
         {
           "name": "Javascript",
-          "percent": 72
+          "percent": 100
         },
         {
           "name": "SQL",
-          "percent": 74
+          "percent": 100
         },
         {
           "name": "C#",
-          "percent": 55
+          "percent": 100
         }
       ]
     },
