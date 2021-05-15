@@ -194,13 +194,13 @@
     {
       "role": "Full Stack Lead Developer",
       "company": "Advacare International Ltd – Advacare Pharmaceuticals",
-      "description": "Advacare is a manufacturer and global supplier of pharmaceutical and healthcare products. I was managing all technical aspects of the multiple business websites including management of services and servers hosted on AWS. I migrated old applications to a new comprehensive solution called Odoo with the goal of increasing productivity in the current internal processes. I implement a ecommerce website called AdvalifeUSA.",
+      "description": "Advacare is a manufacturer and global supplier of pharmaceutical and healthcare products. I was managing all technical aspects of the multiple business websites including management of services and servers hosted on AWS. I migrated old applications to a new comprehensive solution called Odoo with the goal of increasing productivity in the current internal processes. I implemented an eCommerce website called AdvalifeUSA.",
       "start": "09/2018"
     },
     {
       "role": "Backend Developer",
       "company": "El Comercio Newspaper Digital Platform – Interacción Digital SAC",
-      "description": "El Comercio is the oldest newspaper in Peru. I developed a video analytics reporting platform for most of websites using DynamoDB, Sqoop, Spark, Pandas, Hadoop, Google Data Studio and Microsoft Power BI. I supported to improve SEO, Social Network, Analytics, Advertisement, main performance, reduce loads and lower costs in one of the most visited news websites in Perú. I was responsible for maintaining some of the group's websites at the same time.",
+      "description": "El Comercio is the oldest newspaper in Peru. I developed a video analytics reporting platform for most of websites using DynamoDB, Sqoop, Spark, Pandas, Hadoop, Google Data Studio and Microsoft Power BI. I supported to improve SEO, Social Network, Analytics, Advertisement, main performance, reduce loads and lower costs in one of the most visited news websites in Peru. I was responsible for maintaining some of the group's websites at the same time.",
       "start": "09/2016",
       "end": "08/2018"
     },
