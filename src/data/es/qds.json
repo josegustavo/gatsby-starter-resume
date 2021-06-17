@@ -39,10 +39,6 @@
         {
           "name": "Javascript",
           "percent": 100
-        },
-        {
-          "name": "SQL",
-          "percent": 100
         }
       ]
     },
@@ -57,6 +53,12 @@
           "name": "Odoo"
         },
         {
+          "name": "Flask"
+        },
+        {
+          "name": "Fast API"
+        },
+        {
           "name": "Laravel"
         },
         {
@@ -64,9 +66,6 @@
         },
         {
           "name": "Angular"
-        },
-        {
-          "name": "React"
         }
       ]
     },
@@ -126,20 +125,20 @@
     {
       "role": "Desarrollador Lider Full Stack",
       "company": "Advacare International Ltd",
-      "description": "Advacare es un fabricante y proveedor global de productos farmacéuticos. Gestioné todos los aspectos técnicos de varios sitios web comerciales en AWS. Migré exitosamente aplicaciones antiguas a una nueva solución integral llamada Odoo. Implementé un sitio web de comercio electrónico llamado AdvalifeUSA.",
+      "description": "Advacare es un fabricante y proveedor global de productos farmacéuticos. Gestioné todos los aspectos técnicos de varios sitios web comerciales basados en Php y Python usando frameworks como Flask, FastAPI  . Migré exitosamente aplicaciones antiguas a una nueva solución integral llamada Odoo usando Python. Implementé un sitio web de comercio electrónico llamado AdvalifeUSA.",
       "start": "09/2018"
     },
     {
       "role": "Desarrollador Backend",
       "company": "Plataforma Digital del Diario El Comercio",
-      "description": "El Comercio es el diario más antiguo del Perú. Desarrollé una plataforma de análisis de datos utilizando DynamoDB, Sqoop, Spark, Pandas, Hadoop, Google Data Studio. Colaboré para mejorar las websites del grupo a nivel de SEO, Redes Sociales, Analytics, Publicidad, Performance.",
+      "description": "El Comercio es el diario más antiguo del Perú. Desarrollé una plataforma de análisis de datos utilizando Python, DynamoDB, Sqoop, Spark, Pandas, Hadoop, con un dashboard basado en Django. Colaboré para mejorar las websites del grupo basadas en Code Igniter, a nivel de SEO, Redes Sociales, Analytics, Publicidad.",
       "start": "09/2016",
       "end": "08/2018"
     },
     {
       "role": "Desarrollador Full Stack",
       "company": "Pontificia Universidad Católica del Perú",
-      "description": "La PUCP es una de las mejores universidades privadas del Perú. Desarrollé un sistema web de gestión del aprendizaje de alta demanda llamado Leo. Desarrollé un sistema web de distribución de conocimiento llamado Modus. Apoyé para la migración de almacenamiento en la nube institucional. Fui responsable del mantenimiento de la plataforma de blogs institucionales.",
+      "description": "La PUCP es una de las mejores universidades privadas del Perú. Desarrollé un sistema web de gestión del aprendizaje de alta demanda llamado Leo basado en Angular y Yii2. Desarrollé un sistema web de distribución de conocimiento llamado Modus basado en Backbone. Apoyé para la migración de almacenamiento en la nube institucional usando Owncloud. Fui responsable del mantenimiento de la plataforma de blogs institucionales en NucleusCMS y Wordpress.",
       "start": "10/2013",
       "end": "07/2016"
     }

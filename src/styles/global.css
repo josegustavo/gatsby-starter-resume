@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 
+html {
+  font-size: 20px;
+}
+
 .btn {
   @apply text-xs font-bold py-1 px-2 rounded;
 }
@@ -42,7 +46,7 @@
 }
 
 .tag {
-  @apply px-2 py-1 mr-2 mb-2 bg-neutral-500 text-sm text-white inline-block capitalize font-light rounded;
+  @apply px-2 py-1 mr-2 mb-2 bg-neutral-500 dark:text-gray-200 font-semibold text-sm text-white inline-block capitalize rounded;
 }
 
 .footer-social-link {

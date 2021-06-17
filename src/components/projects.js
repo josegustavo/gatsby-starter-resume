@@ -20,14 +20,6 @@ const Projects = ({ data, locale }) => (
             >
               {locale === 'es' ? 'Visitar Proyecto' : 'Visit Project'}
             </a>
-            <a
-              className="btn hidden print:block"
-              href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {item.link}
-            </a>
           </div>
         )}
       </article>
