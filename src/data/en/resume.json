@@ -12,31 +12,31 @@
       "subskills": [
         {
           "name": "Architecture",
-          "percent": 80
+          "percent": 100
         },
         {
           "name": "Web App Development",
-          "percent": 75
+          "percent": 100
         },
         {
           "name": "Dev Ops",
-          "percent": 60
+          "percent": 100
         },
         {
           "name": "Backend Development",
-          "percent": 82
+          "percent": 100
         },
         {
           "name": "Frontend Development",
-          "percent": 62
+          "percent": 100
         },
         {
           "name": "Project Management",
-          "percent": 55
+          "percent": 100
         },
         {
           "name": "Data Science",
-          "percent": 56
+          "percent": 100
         }
       ]
     },
@@ -46,23 +46,23 @@
       "subskills": [
         {
           "name": "Python",
-          "percent": 82
+          "percent": 100
         },
         {
           "name": "PHP",
-          "percent": 78
+          "percent": 100
         },
         {
           "name": "Javascript",
-          "percent": 72
+          "percent": 100
         },
         {
           "name": "SQL",
-          "percent": 74
+          "percent": 100
         },
         {
           "name": "C#",
-          "percent": 55
+          "percent": 100
         }
       ]
     },
@@ -179,7 +179,7 @@
   "education": [
     {
       "institution": "Pontifical Catholic University of Peru, Lima",
-      "degree": "Informatics Engineering",
+      "degree": "Computer Science Engineering",
       "start": "2007",
       "end": "2015"
     },
@@ -194,13 +194,13 @@
     {
       "role": "Full Stack Lead Developer",
       "company": "Advacare International Ltd – Advacare Pharmaceuticals",
-      "description": "Advacare is a manufacturer and global supplier of pharmaceutical and healthcare products. I was managing all technical aspects of the multiple business websites including management of services and servers hosted on AWS. I migrated old applications to a new comprehensive solution called Odoo with the goal of increasing productivity in the current internal processes. I implement a ecommerce website called AdvalifeUSA.",
+      "description": "Advacare is a manufacturer and global supplier of pharmaceutical and healthcare products. I was managing all technical aspects of the multiple business websites including management of services and servers hosted on AWS. I migrated old applications to a new comprehensive solution called Odoo with the goal of increasing productivity in the current internal processes. I implemented an eCommerce website called AdvalifeUSA.",
       "start": "09/2018"
     },
     {
       "role": "Backend Developer",
       "company": "El Comercio Newspaper Digital Platform – Interacción Digital SAC",
-      "description": "El Comercio is the oldest newspaper in Peru. I developed a video analytics reporting platform for most of websites using DynamoDB, Sqoop, Spark, Pandas, Hadoop, Google Data Studio and Microsoft Power BI. I supported to improve SEO, Social Network, Analytics, Advertisement, main performance, reduce loads and lower costs in one of the most visited news websites in Perú. I was responsible for maintaining some of the group's websites at the same time.",
+      "description": "El Comercio is the oldest newspaper in Peru. I developed a video analytics reporting platform for most of websites using DynamoDB, Sqoop, Spark, Pandas, Hadoop, Google Data Studio and Microsoft Power BI. I supported to improve SEO, Social Network, Analytics, Advertisement, main performance, reduce loads and lower costs in one of the most visited news websites in Peru. I was responsible for maintaining some of the group's websites at the same time.",
       "start": "09/2016",
       "end": "08/2018"
     },
