@@ -11,15 +11,15 @@
       "type": "percent",
       "subskills": [
         {
-          "name": "Dev Ops",
-          "percent": 100
-        },
-        {
           "name": "Desarrollo Backend",
           "percent": 100
         },
         {
           "name": "Desarrollo Frontend",
+          "percent": 100
+        },
+        {
+          "name": "Dev Ops",
           "percent": 100
         }
       ]
@@ -33,11 +33,11 @@
           "percent": 100
         },
         {
-          "name": "PHP",
+          "name": "Javascript",
           "percent": 100
         },
         {
-          "name": "Javascript",
+          "name": "PHP",
           "percent": 100
         },
         {
@@ -63,15 +63,30 @@
           "name": "Code Igniter"
         },
         {
-          "name": "Angular"
-        },
-        {
           "name": "React"
         }
       ]
     },
     {
-      "title": "Software",
+      "title": "Bases de Datos",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "MongoDB"
+        },
+        {
+          "name": "PostgreSQL"
+        },
+        {
+          "name": "MySQL"
+        },
+        {
+          "name": "Redis"
+        }
+      ]
+    },
+    {
+      "title": "Plataformas",
       "type": "tag",
       "subskills": [
         {
@@ -84,31 +99,22 @@
           "name": "Traefik"
         },
         {
-          "name": "Nginx"
+          "name": "AWS"
         },
         {
-          "name": "Wordpress"
-        }
-      ]
-    },
-    {
-      "title": "Bases de Datos",
-      "type": "tag",
-      "subskills": [
-        {
-          "name": "PostgreSQL"
-        },
-        {
-          "name": "MongoDB"
-        },
-        {
-          "name": "MySQL"
+          "name": "GCloud"
         }
       ]
     }
   ],
-  "summary": "Apasionado por la tecnología con conocimiento multidisciplinario adquirido durante más de 7 años en la industria de TI, con una colaboración exitosa en proyectos de diversos tamaños. Enfocado en construir productos de alta demanda y disponibilidad. Amplia experiencia en diseño de arquitectura y construcción de soluciones escalables.",
+  "summary": "Apasionado por la tecnología con conocimiento multidisciplinario adquirido durante más de 9 años en la industria de TI, con una colaboración exitosa en proyectos de diversos tamaños. Enfocado en construir productos de alta demanda y disponibilidad. Experiencia en diseño de arquitectura y construcción de soluciones escalables. Actualmente con interés de participar en proyectos retadores donde se destaque el valor que tienen los datos.",
   "education": [
+    {
+      "institution": "Pontificia Universidad Católica del Perú, Lima",
+      "degree": "Diplomatura en Desarrollo de Aplicaciones con Inteligencia Artificial",
+      "start": "02/2022",
+      "end": "09/2022"
+    },
     {
       "institution": "Pontificia Universidad Católica del Perú, Lima",
       "degree": "Ingeniería Informática",
@@ -124,15 +130,21 @@
   ],
   "experience": [
     {
+      "role": "Tech Lead - Full Stack",
+      "company": "Innova Schools - Colegios Peruanos S.A.",
+      "description": "Innova Schools es la red de colegios más gránde del Perú. Participé en proyectos para el desarrollo de productos digitales de innovación con foco en el análisis de Data para la toma de desiciones. Gestioné los aspectos técnicos de los proyectos y las tecnologías base de los productos y las nuevas plataformas en AWS y GCP. Participé en el desarrollo de los MVP, plataformas web desarrolladas en Laravel, Python, Lambda entre otros stacks",
+      "start": "07/2021 - 09/2022"
+    },
+    {
       "role": "Desarrollador Lider Full Stack",
       "company": "Advacare International Ltd",
-      "description": "Advacare es un fabricante y proveedor global de productos farmacéuticos. Gestioné todos los aspectos técnicos de varios sitios web comerciales en AWS. Migré exitosamente aplicaciones antiguas a una nueva solución integral llamada Odoo. Implementé un sitio web de comercio electrónico llamado AdvalifeUSA.",
+      "description": "Advacare es un fabricante y proveedor global de productos farmacéuticos. Gestioné todos los aspectos técnicos de varios sitios web comerciales en AWS. Migré exitosamente aplicaciones antiguas a una nueva solución integral llamada Odoo ERP. Implementé un sitio web de comercio electrónico llamado AdvalifeUSA.",
       "start": "09/2018"
     },
     {
       "role": "Desarrollador Backend",
       "company": "Plataforma Digital del Diario El Comercio",
-      "description": "El Comercio es el diario más antiguo del Perú. Desarrollé una plataforma de análisis de datos utilizando DynamoDB, Sqoop, Spark, Pandas, Hadoop, Google Data Studio. Colaboré para mejorar las websites del grupo a nivel de SEO, Redes Sociales, Analytics, Publicidad, Performance.",
+      "description": "El Comercio es el diario más leido del Perú. Desarrollé una plataforma de análisis de datos utilizando DynamoDB, Sqoop, Spark, Pandas, Hadoop, Google Data Studio. Colaboré para mejorar las websites del grupo a nivel de SEO, Redes Sociales, Analytics, Publicidad, Performance.",
       "start": "09/2016",
       "end": "08/2018"
     },
@@ -142,6 +154,13 @@
       "description": "La PUCP es una de las mejores universidades privadas del Perú. Desarrollé un sistema web de gestión del aprendizaje de alta demanda llamado Leo. Desarrollé un sistema web de distribución de conocimiento llamado Modus. Apoyé para la migración de almacenamiento en la nube institucional. Fui responsable del mantenimiento de la plataforma de blogs institucionales.",
       "start": "10/2013",
       "end": "07/2016"
+    },
+    {
+      "role": "Desarrollador Asistente",
+      "company": "Tecnología y Proyectos SAC",
+      "description": "En los primeros años de mi carrera tuve el privilegio de participar en diversos proyectos, entre los que destaco: operar hardware de recopilación de datos geológicos y el desarrollo de un software de análisis y visualización para estos tipos de datos. También me desempeñé en diagnóstico y soporte de equipos y redes informáticas.",
+      "start": "08/2009",
+      "end": "03/2012"
     }
   ],
   "social": [
@@ -178,7 +197,7 @@
       "url": "https://www.youtube.com/channel/UCgK6v3aIPHUWGszeFh9Tpbg"
     }
   ],
-  "role": "Desarrollador Web",
+  "role": "Ingeniero informático",
   "projects": [
     {
       "name": "Gatsby starter resume",
@@ -187,5 +206,5 @@
       "link": "https://github.com/josegustavo/gatsby-starter-resume"
     }
   ],
-  "fullname": "Jose Gustavo Quilca Vilcapoma"
+  "fullname": "Jose G. Quilca Vilcapoma"
 }
